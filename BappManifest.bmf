@@ -2,11 +2,11 @@ Uuid: 2f640c88e0394bb09e788378f1bcc80f
 ExtensionType: 1
 Name: Fast Infoset Tester
 RepoName: fast-infoset-tester
-ScreenVersion: 1.0
-SerialVersion: 1
+ScreenVersion: 1.1
+SerialVersion: 2
 MinPlatformVersion: 0
 ProOnly: False
 Author: Robert Bone, Pen Test Partners
 ShortDescription: Allows Burp to test applications that use Fast Infoset XML encoding
-EntryPoint: target/fista-1.0-SNAPSHOT.jar
+EntryPoint: target/fista-1.1-SNAPSHOT.jar
 BuildCommand: mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B
